@@ -7,8 +7,7 @@ root.configure(background = 'black')
 root.resizable(False, False)
 
 
-# Change 'utils/gradient.png' to 'utils\gradient.png' 
-background = tk.PhotoImage(file = 'utils/gradient.png')
+background = tk.PhotoImage(file = 'utils\gradient.png')
 background_label = tk.Label(root, image = background)
 background_label.place(x = -3, y = 0)
 
